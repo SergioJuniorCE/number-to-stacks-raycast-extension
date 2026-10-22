@@ -22,7 +22,6 @@ export default function Command(props: CommandProps) {
 
   return (
     <List
-      navigationTitle="Minecraft Stacks"
       searchBarPlaceholder="144 to stacks or 1.5 stacks to items"
       searchText={query}
       onSearchTextChange={setQuery}
